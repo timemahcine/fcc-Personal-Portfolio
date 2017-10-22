@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+		*{
+			padding: 0;
+			margin: 0;
+			width: auto;
+
+		}
+		body{
+			font-size: 12px;
+			line-height: 1.5;
+		}
+		li,ul{
+			list-style: none;
+		}
+		.contentm{
+			background: #888;
+			min-width: 1280px;
+		}
+		#content{
+			width: 80%;
+			margin: 0 auto;	
+			clear: both;
+			background: #AAAAAA;
+			box-shadow:0 2px 0 2px rgba(0,0,0,0.1);
+			z-index: 999;
+			position:relative;
+		}
+		.navtop{
+			background: #722872;
+			box-shadow: 0 0 5px 0 black;
+			z-index: 1000;
+			position: fixed;
+        	top:0;
+        	 width: 100%;
+
+
+		}
+		nav a{
+			display: block;
+			width: 120px;
+			height: 40px;
+			box-shadow: 1px 1px (0,0,0,0.5);
+			background: #722872;
+			text-decoration: none;
+			text-align: center;
+			font-size: 20px;
+			line-height: 40px;
+			color: #545454;
+			float: left;
+			margin-top: 20px;
+			margin-bottom: 20px;
+			z-index: 10000;
+
+		}
+		.active{
+			background: #D5D5D5;
+		}
+		nav{
+			float: right;
+			font-size: bold;
+		}
+		.navbar{
+			width: 80%;
+			margin: 0 auto;
+		}
+	
+		.item{
+			width: 100%;
+			clear: both;
+			box-shadow: 0 0 2px 0 black;
+			padding: 50px 0;
+		}
+		#item1{
+			color: #EEEEEE;
+		}
+		#item2{
+			width: 100%;
+			color:#888888;
+			background-color: white;
+			
+		}
+		#item3{
+			width: 100%;
+			color:#888888;
+			background-color: white;
+		}
+		.about-left{
+			width: 60%;
+			font-size: 25px;
+			font-weight:400;
+			float:left;
+			text-align: right;
+			
+			
+		}
+		.about-right{
+			width: 30%;			
+			float: right;			
+		}
+	
+		.portfolio-left1{			
+			width: 40%;			
+			float: left;
+			padding-left: 50px;
+			
+		}
+		.portfolio-right1{
+			width: 40%;
+			font-size: 25px;
+			font-weight:400;
+			float:right;
+			text-align: left;	
+			padding-right: 50px;
+			padding-top: 20px;		
+		}	
+
+		.contact-left{
+			width:40%; 
+			font-size: 25px;
+			font-weight:400;
+			float:left;
+			
+			padding-left: 80px;
+			padding-top: 20px;		
+		}
+		.contact-right{
+			width:40%; 
+			font-size: 25px;
+			font-weight:400;
+			float:right;
+			text-align: left;	
+			padding-right: 80px;
+			padding-top: 20px;		
+		}
+		.contact-left li{
+			display: block;
+			margin: 20px;
+		}
+
+		h1{
+			text-align: center;
+			font-size: 30px;
+		}
+		.about-right img{
+		border-radius:50%
+		}
+		a{
+			text-decoration: none;
+			color:#888
+		}
+		
+		a:link,
+		a:hover{color:#888}
+		footer{
+			background: #722872;
+			text-align: center;
+			font-size: 20px;
+			color: #888888;
+			height: 100px;
+		}
+
+		footer div{
+			margin: 0 auto;
+			line-height:100px; 
+			height:100px;
+		}
+	</style>
+</head>
+<body>
+	<div class="navtop">
+		<div class="navbar">
+			<nav>
+				<a href="#item1" class="active" id="nav1">ABOUT</a>
+				<a href="#item2" id="nav2">PORTFOLIO</a>
+				<a href="#item3" id="nav3">CONTACT</a>
+			</nav>
+			<div style="clear:both;"></div> 
+		</div>
+	</div>
+	<div style="height: 80px"></div>
+
+	<div class="contentm">
+		<div id="content">
+			
+			<div id="item1" class="item">
+			<h1>ABOUT</h1>
+			<h1>————————&lt;/&gt;————————</h1>
+			<div id="about">
+				<div class="about-left">
+			    	<p>Front-End Developer from China,like coding,like movies,like music,like video games.</p>
+			    	<p>Front-End Developer from China,like coding,like movies,like music,like video games.</p>
+			    	<br>
+			    	<p>Web Developer / Cinephile / Writer / Painter</p>    	
+			    </div>
+			     <div class="about-right">
+			    	<img src="https://raw.githubusercontent.com/timemahcine/img/master/about.jpg">
+			    </div>
+			    </div>
+			    <div style="clear:both;"></div> 
+			</div>  
+			<div id="item2" class="item">
+		        <h1>PORTFOLIO</h1>
+				<h1>————————&lt;/&gt;————————</h1>
+		        <div id="portfolio">
+			        <div class="article">
+			         	<div class="portfolio-left1">
+					    	<img src="https://raw.githubusercontent.com/timemahcine/img/master/ydcp.jpg">
+					    </div>
+						<div class="portfolio-right1">
+					    	<p>Front-End Developer from China,like coding,like movies,like music,like video games.</p>
+					    	<p>Front-End Developer from China,like coding,like movies,like music,like video games.</p>
+					    	<br>
+					    	<p>Web Developer / Cinephile / Writer / Painter</p>    	
+					    </div>	
+					    <div style="clear:both;"></div> 
+					</div>
+
+					<div class="article">
+			         	<div class="portfolio-left1">
+					    	<img src="https://raw.githubusercontent.com/timemahcine/img/master/ydcp.jpg">
+					    </div>
+						<div class="portfolio-right1">
+					    	<p>Front-End Developer from China,like coding,like movies,like music,like video games.</p>
+					    	<p>Front-End Developer from China,like coding,like movies,like music,like video games.</p>
+					    	<br>
+					    	<p>Web Developer / Cinephile / Writer / Painter</p>    	
+					    </div>	
+					    <div style="clear:both;"></div> 
+					</div>
+			       
+
+	   
+			    </div>
+			    <div style="clear:both;"></div> 
+			</div>  
+	      
+	   		<div id="item3" class="item">
+	   		     <h1>CONTACT</h1>
+				<h1>————————&lt;/&gt;————————</h1>
+		        <div class="contact-left">
+		        	<div>
+		        		<li>Codepen:<a href="https://codepen.io/timemahcine/">timemahcine</a></li>
+		        		<li>Github:<a href="https://github.com/timemahcine">timemahcine</a></li>
+		        		<li>Weibo:<a href="https://weibo.com/pojiudeshiguangji">pojiudeshiguangji</a></li>
+		        		<li>Douban:<a href="https://www.douban.com/people/76585778/">破旧的时光机</a></li>
+		        		<li>Zhihu:<a href="https://www.zhihu.com/people/xuan-yi-cheng/activities">破旧的时光机</a></li>
+		        	</div>
+		        </div>
+
+		        <div class="contact-right">
+		        	<div>
+		        		<p>Want to get in touch with me? Be it to request more info about myself or my experience, to ask for my resume, tips on how to solve your sudoku, random questions about the universe and the meaning of life, or even if only for some nice Fika here in stunning Toronto... just feel free to drop me a line anytime.</p>
+		        	</div>
+		        </div>
+		         <div style="clear:both;"></div> 
+	   		</div>  
+		</div>
+	</div>
+
+	<footer><div>Made with coffe and music by Timemahcine.</div></footer>
+	<script type="text/javascript" src="http://libs.baidu.com/jquery/1.9.1/jquery.min.js"></script>
+	<script type="text/javascript">
+	 $(document).ready(function () {
+            $(window).scroll(function () {
+                var items = $("#content").find(".item");
+                var nav = $("nav");
+                var top = $(document).scrollTop();
+                var activeId = ""; //滚动条现在所在位置的item id
+                items.each(function () {
+                    var m = $(this);
+                    //注意：m.offset().top代表每一个item的顶部位置
+                    if (top > m.offset().top - 200) {
+                        activeId = "#" + m.attr("id");
+                    } else {
+                        return false;
+                    }
+                });
+
+                var activeLink = nav.find(".active");
+                if (activeId && activeLink.attr("href") != activeId) {
+                    activeLink.removeClass("active");
+                    nav.find("[href=" + activeId + "]").addClass("active");
+                }
+            });
+        });
+	 
+	</script>
+</body>
+</html>
